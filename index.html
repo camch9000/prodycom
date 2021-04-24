@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html ng-app="prodycomApp">
+<head>
+
+  <title>CProdycom c.a.</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="keywords" content="prodycom, construcción">
+  <meta name="description" content="Constructora Prodycom c.a.">
+
+  <!--icon-->
+  <link href="images/cp_logo_Icon.png" rel="shortcut icon">
+
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+  <!-- Style Sheets -->
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/templatemo_misc.css">
+  <link rel="stylesheet" href="css/templatemo_style.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- JavaScripts -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap-dropdown.js"></script>
+  <script src="js/bootstrap-collapse.js"></script>
+  <script src="js/bootstrap-tab.js"></script>
+  <script src="js/jquery.singlePageNav.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/jquery.lightbox.js"></script>
+  <script src="js/templatemo_custom.js"></script>
+  <script src="js/responsiveCarousel.min.js"></script>
+  <script src='https://unpkg.com/sweetalert2@7.3.5/dist/sweetalert2.all.js'></script>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js'></script>
+  <script src="js/angularmain.js"></script>
+</head>
+<body ng-controller="web_controller" ng-init="init()">
+
+
+<!-- header start -->
+<div id="templatemo_home_page">
+  <div class="templatemo_topbar">
+    <div class="container">
+      <div class="row">
+        <div class="templatemo_titlewrapper"><img src="images/templatemo_logobg4.png" alt="logo background">
+        </div>
+        <div class="clear"></div>
+        <div class="templatemo_titlewrappersmall"><img src="images/cp_logo_fill.png" alt="logo background" style="position: absolute;width: 7em;"></div>
+        <nav class="navbar navbar-default templatemo_menu" role="navigation">
+          <div class="container-fluid"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="top-menu">
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a class="menu" href="#templatemo_home_page">Inicio</a></li>
+                  <li><a class="menu" href="#templatemo_team_page">Nosotros</a></li>
+                  <li><a class="menu" href="#templatemo_service_page">Servicios</a></li>
+                  <li><a class="menu" href="#templatemo_work_page">Proyectos</a></li>
+                  <li><a class="menu" href="#templatemo_clients_page">Clientes</a></li>
+                  <li><a class="menu" href="#templatemo_contact_page">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /.navbar-collapse --> 
+          </div>
+          <!-- /.container-fluid --> 
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="templatemo_headerimage">
+    <div class="flexslider">
+      <ul class="slides">
+        <li><img src="images/cp_slider/cp_img1.jpg" alt="Slide 1"></li>
+        <li><img src="images/cp_slider/cp_img2.jpg" alt="Slide 2"></li>
+        <li><img src="images/cp_slider/cp_img3.jpg" alt="Slide 3"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="slider-caption">
+    <div class="templatemo_homewrapper">
+      <div class="templatemo_hometitle">Constructora Prodycom c.a.</div>
+      <div class="templatemo_hometext">Tu mejor solución</div>
+      <div class="templatemo_hometext">Seriedad - Responsabilidad - Calidad</div>
+    </div>
+  </div>
+</div>
+<!-- header end -->
+<div class="clear"></div>
+
+
+<!-- Nosotros start -->
+<div class="templatemo_team_wrapper" id="templatemo_team_page">
+  <div class="container">
+    <div class="row">
+      <h1>Nosotros</h1>
+      <div class="col-md-12 templatemo_workmargin">Somos una empresa dedicada al 100% en construcción. Tenemos <strong>más de 15 años</strong> en el mercado construyendo todo tipo de obras civiles y realizando remodelaciones a particulares. Hemos trabajo con múltiples empresas y desarrollado tanto proyectos pequeños como grandes. Nuestro trabajo se basa en <strong>seguridad, responsabilidad y calidad</strong>. Orientamos siempre a nuestros clientes para obtener los <strong>mejores resultados</strong>. Comunícate con nosotros y con gusto atenderemos todas tus necesidades.</div>      
+    </div>
+  </div>
+
+  <div class="serices-data">
+    <div class="row">
+      <div class="col-sm-6" style="border-right: white solid 2px;"><p class="titleText">2005</p><br><p class="subtitleText">Inicios</p></div>
+      <div class="col-sm-6"><p class="titleText-small">+100</p><br><p class="subtitleText">proyectos</p></div>
+    </div>
+  </div>
+</div>
+<!-- Nosotros end -->
+<div class="clear"></div>
+
+
+<!-- Servicios start -->
+<div class="templatemo_servicewrapper" id="templatemo_service_page">
+  <div class="container">
+    <div class="row">
+      <h1>Servicios</h1>
+      <!-- <div class="col-md-12 templatemo_marginbot">You can easily <strong>change icons</strong> by looking at guidelines from <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/">Font Awesome</a>. Example: <strong>&lt;i class=&quot;fa fa-camera&quot;&gt;&lt;/i&gt;</strong> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam dapibus leo quis nisl. In lectus. Vivamus consectetuer pede in nisl. Mauris cursus pretium mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div> -->
+      <div class="col-md-3 col-sm-6">
+        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col">
+          <img class="imgBack" src="images/cp_services_1.jpg" alt="Servicios 1">
+          <div class="templatemo_service_title">Remodelaciones</div>
+          <p><strong>Remodelaciones integrales o espacios en específico.</strong> Orientamos y ofrecemos el mejor servicio a nuestro cliente cumpliendo con todas sus necesidades de esta forma obtenemos los mejores resultados.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="templatemo_servicebox margin_bottom_1col margin_bottom_2col">
+          <img class="imgBack" src="images/cp_services_2.jpg" alt="Servicios 2">
+          <div class="templatemo_service_title">Construcción</div>
+          <p><strong>Construcciones desde cero.</strong> Sabemos que construir desde cero no es tarea fácil cuando de decisiones se trata. Por eso te orientamos en todo momento para lograr los objetivos planteados y obtener los mejores resultados.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="templatemo_servicebox margin_bottom_1col">
+          <img class="imgBack" src="images/cp_services_3.png" alt="Servicios 3">
+          <div class="templatemo_service_title">Servicios</div>
+          <p><strong>Diferentes servicios.</strong> Suministro e instalación de equipos de aires acondicionados, albañilería en general, carpintería, plomería industrial y doméstica, electricidad en alta y baja, pintura.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="templatemo_servicebox">
+          <img class="imgBack" src="images/cp_services_4.jpg" alt="Servicios 4">
+          <div class="templatemo_service_title">Más servicios...</div>
+          <p>Revestimientos en grafiado y texturizados, fabricación de mármoles y granitos (topes, pantallas...), drywall, herrería, cerramientos en aluminio y vidrios y <strong>mucho más.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Servicios end -->
+<div class="clear"></div>
+
+
+<!-- Proyectos start -->
+<div class="templatemo_workwrapper" id="templatemo_work_page">
+  <div class="container">
+    <div class="row">
+      <h1>Proyectos</h1>
+      <div class="col-md-12 templatemo_workmargin"><strong>Más de 100 proyectos</strong> realizados con éxito en diferentes áreas de construcción</div>
+    </div>
+  </div>
+  <div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/0-0.jpg" alt="work 1">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #001</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/0-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/1-0.png" alt="work 2">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #002</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/1-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/2-0.png" alt="work 3">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #003</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/2-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/3-0.png" alt="work 4">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #004</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/3-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/4-0.png" alt="work 5">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #005</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/4-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/5-0.jpg" alt="work 6">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #006</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/5-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/6-0.jpg" alt="work 7">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #007</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/6-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/7-0.jpg" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #008</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/7-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/8-0.jpg" alt="work 5">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #005</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/8-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/9-0.jpg" alt="work 6">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #006</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/9-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/10-0.png" alt="work 7">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #007</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/10-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/11-0.png" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #008</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/11-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/12-0.png" alt="work 5">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #005</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/12-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/13-0.png" alt="work 6">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #006</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/13-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/14-0.jpg" alt="work 7">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #007</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/14-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/15-0.jpg" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #008</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/15-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/16-0.jpg" alt="work 5">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #005</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/16-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/17-0.png" alt="work 6">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #006</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/17-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/18-0.png" alt="work 7">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #007</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/18-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/19-0.png" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #008</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/19-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/20-0.png" alt="work 5">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #005</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/20-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/21-0.png" alt="work 6">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #006</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/21-1.png" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/22-0.jpg" alt="work 7">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #007</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/22-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="templatemo_workbox">
+      <div class="gallery-item"><img src="images/cp_proyectos/23-0.jpg" alt="work 8">
+        <div class="overlay">
+          <div class="templatemo_worktitle">Project #008</div>
+          <div class="templatemo_workdes">Morbi et nisi in augue accumsan imperdiet</div>
+          <div class="templatemo_worklink"><a href="images/cp_proyectos/23-1.jpg" data-rel="lightbox" class="fa fa-search-plus"></a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--work end-->
+<div class="clear"></div>
+
+
+<!-- Clientes start -->
+<!-- team start -->
+<div class="templatemo_team_wrapper" id="templatemo_clients_page">
+  <div class="container">
+    <div class="row">
+      <h1>Nustros clientes</h1>
+      <div id="w">
+        <div class="crsl-items" data-navigation="navbtns">
+          <div class="crsl-wrap">
+            <div class="crsl-item"><img src="images/cp_clientes/cp_avior.jpg" alt="Cliente Avior Airline">
+              <a href="https://www.avior.com.ve/" target="_blank" class="templatemo_team_name"><u>Avior airlines</u> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <div class="templatemo_team_post">Aerolinea</div>
+            </div>
+            <!-- post #1 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_polar.jpg" alt="Cliente Empresas polar">
+              <a href="https://empresaspolar.com/" target="_blank" class="templatemo_team_name"><u>Empresas Polar</u> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <div class="templatemo_team_post">Corporación industrial</div>
+            </div>
+            <!-- post #2 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_aero.png" alt="Cliente Aerocentro">
+              <a href="http://parqueindustrialaerocentro.com/" target="_blank" class="templatemo_team_name"><u>Aerocentro</u> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <div class="templatemo_team_post">Parque industrial</div>
+            </div>
+            <!-- post #3 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_mrw.png" alt="Cliente mrw">
+              <a href="http://www.mrwve.com/" target="_blank" class="templatemo_team_name"><u>MRW</u> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <div class="templatemo_team_post">Empresa de envios</div>
+            </div>
+            <!-- post #4 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_bj.jpg" alt="Cliente B.J. Services" >
+              <a href="https://www.bjenergy.com/" target="_blank" class="templatemo_team_name"><u>B.J. Services</u> <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <div class="templatemo_team_post">Servicios petroleros</div>
+            </div>
+            <!-- post #5 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_nc.jpg" alt="Cliente NC Project" >
+              <div class="templatemo_team_name">NC Project</div>
+              <div class="templatemo_team_post">Servicios petroleros</div>
+            </div>
+            <!-- post #6 -->
+            <div class="crsl-item"><img src="images/cp_clientes/cp_gm.jpg" alt="Cliente GM 200" >
+              <div class="templatemo_team_name">GM 200</div>
+              <div class="templatemo_team_post">Construcción</div>
+            </div>
+          </div>
+          <!-- @end .crsl-wrap --> 
+        </div>
+        <!-- @end .crsl-items --> 
+      </div>
+      <div class="clear"></div>
+      <nav class="slidernav">
+        <div id="navbtns" class="clearfix"><a href="#" class="previous"><img src="images/slideitmoo_back.png" alt="previous"></a> <a href="#" class="next"><img src="images/slideitmoo_forward.png" alt="next"></a></div>
+      </nav>
+    </div>
+    <script>
+	$(function() {
+		$('.crsl-items').carousel({
+			visible: 4,
+			itemMinWidth: 180,
+			itemEqualHeight: 370,
+			itemMargin: 9,
+		});
+		$("a[href=#]").on('click', function(e) {
+			e.preventDefault();
+		});
+	});
+    </script>
+  </div>
+</div>
+<!-- team end -->
+
+<!-- contact start -->
+<div class="templatemo_contactwrapper" id="templatemo_contact_page">
+  <div class="container">
+    <div class="row">
+      <h1>Contacto</h1>
+    </div>
+  </div>
+  <div class="templatemo_contactmap">
+    <div id="templatemo_map"></div>
+  </div>
+  <div class="container templatemo_contactmargin">
+    <div class="row">
+      <div class="col-md-3">
+        <div itemscope itemtype="https://schema.org/Organization">
+          <span itemprop="name"><strong><u>Constructora Prodycom c.a.</u></strong></span>
+          <br>
+          <div class="templatemo_address_left"><strong>Ubicación:</strong></div>
+          <div class="templatemo_address_right">
+            <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <a href="https://www.google.com/maps/place/Barcelona,+Anzo%C3%A1tegui,+Venezuela/@10.1304856,-64.6795003,13.3z/data=!4m13!1m7!3m6!1s0x8c2d723eff71306f:0x22feb43cef889e75!2sBarcelona,+Anzo%C3%A1tegui,+Venezuela!3b1!8m2!3d10.1445691!4d-64.67768!3m4!1s0x8c2d723eff71306f:0x22feb43cef889e75!8m2!3d10.1445691!4d-64.67768" target="_blank">Barcelona, Anzoátegui, Venezuela</a>
+            </div>
+          </div>
+          <div class="clear"></div>
+          
+          <div class="templatemo_address_left"><strong>Llámanos:</strong></div>
+          <div class="templatemo_address_right">
+            <span itemprop="telephone"><a href="tel:+584265821342">(+58) 426 582 13 42</a></span>
+            <br>
+            <span itemprop="telephone"><a href="tel:+584122260229">(+58) 412 226 02 29</a></span>
+          </div>
+          <div class="clear"></div>
+          <div class="templatemo_address_left"><strong>Email:</strong></div>
+          <div class="templatemo_address_right"><span itemprop="email"><a href="mailto:cprodycom@hotmail.com">cprodycom@hotmail.com</a></span><br>
+            <span itemprop="email"><a href="mailto:cprodycomca@hotmail.com">cprodycomca@gmail.com</a></span></div>
+        </div>
+      </div>
+      <form action="#" method="post">
+        <div class="col-md-9">
+          <div class="col-md-4">
+            <input type="text" name="name" id="name" class="name" placeholder="Tu nombre" ng-model="mensaje.nombre" required>
+          </div>
+          <div class="col-md-4">
+            <input type="email" name="email" id="email" class="email" placeholder="Tu email" ng-model="mensaje.email" ng-required="!mensaje.telefono">
+          </div>
+          <div class="col-md-4">
+            <input type="tel" name="subject" id="subject" class="subject" placeholder="Tu télefono" ng-model="mensaje.telefono" ng-required="!mensaje.email">
+          </div>
+          <div class="col-md-12">
+            <textarea name="message" cols="1" rows="1" class="message" placeholder="Tu mensaje... " id="message" ng-model="mensaje.mensaje"></textarea>
+          </div>
+          <div class="col-md-4">
+            <input type="submit" name="send" value="Enviar mensaje" id="submit" class="button templatemo_sendbtn" ng-click="enviarMensaje(mensaje)">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- contact end --> 
+<!-- footer start -->
+<div class="templatemo_footerwrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">Copyright &copy; <script>document.write(new Date().getFullYear())</script> <a href="#">Constructora Prodycom c.a. RIF: J-31342258-4</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer end -->
+
+<aside id="sticky-social">
+  <ul>
+      <!-- <li><a href="#" class="entypo-facebook" target="_blank"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+      <li><a href="#" class="entypo-twitter" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+      <li><a href="#" class="entypo-gplus" target="_blank"><i class="fa fa-google-plus"></i><span>Google+</span></a></li>
+      <li><a href="#" class="entypo-linkedin" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a></li> -->
+      <li><a href="https://www.instagram.com/prodycomca/" class="entypo-instagrem" target="_blank"><i class="fa fa-instagram"></i><span><u>Instagram</u></span></a></li>
+      <li><a href="tel:+584265821342" class="entypo-whatsapp"><i class="fa fa-whatsapp"></i><span><u>(+58) 426 582 13 42</u></span></a></li>
+      <li><a href="tel:+584122260229" class="entypo-phone"><i class="fa fa-phone"></i><span><u>(+58) 412 226 02 29</u></span></a></li>
+      <!-- <li><a href="#" class="entypo-stumbleupon" target="_blank"><i class="fa fa-stumbleupon"></i><span>StumbleUpon</span></a></li>
+      <li><a href="#" class="entypo-pinterest" target="_blank"><i class="fa fa-pinterest"></i><span>Pinterest</span></a></li>
+      <li><a href="#" class="entypo-flickr" target="_blank"><i class="fa fa-flickr"></i><span>Flickr</span></a></li>
+      <li><a href="#" class="entypo-tumblr" target="_blank"><i class="fa fa-tumblr"></i><span>Tumblr</span></a></li> -->
+  </ul>
+</aside>
+
+
+<script>
+//scroll to specific id when click on menu
+// Cache selectors
+var lastId,
+    topMenu = $("#top-menu"),
+    topMenuHeight = topMenu.outerHeight() + 15,
+    // All list items
+    menuItems = topMenu.find("a"),
+    // Anchors corresponding to menu items
+    scrollItems = menuItems.map(function() {
+        var item = $($(this).attr("href"));
+        if (item.length) {
+            return item;
+        }
+    });
+// Bind click handler to menu items
+// so we can get a fancy scroll animation
+menuItems.click(function(e) {
+    var href = $(this).attr("href"),
+        offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+    $('html, body').stop().animate({
+        scrollTop: offsetTop
+    }, 300);
+    e.preventDefault();
+});
+// Bind to scroll
+$(window).scroll(function() {
+    // Get container scroll position
+    var fromTop = $(this).scrollTop() + topMenuHeight;
+    // Get id of current scroll item
+    var cur = scrollItems.map(function() {
+        if ($(this).offset().top < fromTop)
+            return this;
+    });
+    // Get the id of the current element
+    cur = cur[cur.length - 1];
+    var id = cur && cur.length ? cur[0].id : "";
+    if (lastId !== id) {
+        lastId = id;
+        // Set/remove active class
+        menuItems
+            .parent().removeClass("active")
+            .end().filter("[href=#" + id + "]").parent().addClass("active");
+    }
+});
+</script>
+</body>
+</html>
