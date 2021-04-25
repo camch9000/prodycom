@@ -56,8 +56,11 @@
                     $mail->addCC('jalexrg1992@gmail.com');
                     $mail->addCC('cprodycom@hotmail.com');
                     $mail->addCC('cprodycomca@gmail.com');
+                    
+                    if($email != NULL) { $identity = explode("@", $email, 2); }
+                    else { $identity = explode("@", $telefono, 2); }
 
-                    $mail->Subject ="(CPRODYCOM) - NUEVA MENSAJE WEB"; // Subject of the email
+                    $mail->Subject ="(CPRODYCOM) - NUEVA MENSAJE WEB - " . $identity[0]; // Subject of the email
 
                     // fwrite($myLog,"Datos\n");
 
