@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <!--FONT-->
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro:700|Open+Sans" rel="stylesheet">
+
+        <style type="text/css">
+            body
+            {
+                margin: 0;
+                background-color: #e7ecf2;
+                color: #333;
+                font-family: "Open Sans2", sans-serif;
+            }
+            .encabezado
+            {
+                border-bottom: 7px solid #ffcc00;
+                background-color: #FFDD55;
+            }
+            
+            .logo_accede
+            {
+                width: 250px;
+                margin-top: 1.2em;
+            }
+
+            .logoAccedePosition
+            {
+                margin: 0;
+                text-align: center;
+            }           
+
+            .formulario
+            {
+                margin-top: 20px;
+                padding: 0 40px 20px;
+                background-color: #F0EEEE;
+                border:2px solid #ffcc00;
+            }
+
+            .titulo_pantalla
+            {
+                margin-bottom: 30px;
+                color: #747474;
+                font-family: "Advent Pro", sans-serif;
+                font-size: 1.6em;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+
+            .text-right
+            {
+                text-align: right;
+                margin-right: 1em;
+            }
+
+            .justi
+            {
+                text-align: justify;
+            }
+
+        </style>
+    </head>
+
+    <body>
+            <header class="container-fluid encabezado">
+                <div class="logoAccedePosition">
+                    <img src="https://venus.softlab.uc3m.es/prodycom_web/images/cp_logo_fill.png" alt="logo constructora Prodycom" class="logo_accede">
+                </div>                
+            </header>
+        <div class="container">
+            <div class="formulario">
+                <h2 class="titulo_pantalla">Nuevo mensaje web</h2>
+                <p>Se ha enviado un mensaje desde la web con los siguientes datos:</p>
+                <p>Fecha: <strong>'.$hoy.'</strong></p>
+                <p>Nombre: <strong>'.$nombre.'</strong></p>
+                <p>Email: <strong>'.$email.'</strong></p>
+                <p>Télefono: <strong>'.$telefono.'</strong></p>
+                <p>Mensaje: <strong>'.$mensaje.'</strong></p>
+                <br>
+                <p class="justi"><strong>En cumplimiento de lo establecido en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal le informamos que sus datos personales quedarán incorporados y serán tratados en los ficheros automatizados de la COMUNIDAD DE MADRID, con el fin de realizar el prestamo de libros en el programa ACCEDE. Le informamos de la posibilidad de que ejerza los derechos de acceso, rectificación, cancelación y oposición de sus datos de carácter personal solicitándolo por escrito y junto a una copia de su DNI dirigida al Responsable del Fichero.</strong></p>
+            </div>
+
+            <br>
+            <div class="text-right">
+                <p><strong>Constructora Prodycom c.a.</strong></p>
+            </div>
+        </div>
+
+    </body>
+</html>

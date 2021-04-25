@@ -98,13 +98,3 @@ function loadScript() {
       'callback=initialize';
   document.body.appendChild(script);
 }
-
-function initialize() {
-    var mapOptions = {
-	center: new google.maps.LatLng(10.133333,-64.683333),
-	zoom: 13,
-	scrollwheel: false,
-	mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
-    var map = new google.maps.Map(document.getElementById('templatemo_map'),  mapOptions);
-}

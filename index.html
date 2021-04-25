@@ -14,7 +14,7 @@
   <link href="images/cp_logo_Icon.png" rel="shortcut icon">
 
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
   <!-- Style Sheets -->
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -469,7 +469,7 @@
     </div>
   </div>
   <div class="templatemo_contactmap">
-    <div id="templatemo_map"></div>
+    <div id="templatemo_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62845.57544976128!2d-64.6986539262642!3d10.111487249204597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2d723eff71306f%3A0x22feb43cef889e75!2sBarcelona%2C%20Anzo%C3%A1tegui%2C%20Venezuela!5e0!3m2!1ses-419!2ses!4v1619286227907!5m2!1ses-419!2ses" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
   </div>
   <div class="container templatemo_contactmargin">
     <div class="row">
@@ -497,7 +497,7 @@
             <span itemprop="email"><a href="mailto:cprodycomca@hotmail.com">cprodycomca@gmail.com</a></span></div>
         </div>
       </div>
-      <form action="#" method="post">
+      <form ng-submit="enviarMensaje($event)">
         <div class="col-md-9">
           <div class="col-md-4">
             <input type="text" name="name" id="name" class="name" placeholder="Tu nombre" ng-model="mensaje.nombre" required>
@@ -512,7 +512,7 @@
             <textarea name="message" cols="1" rows="1" class="message" placeholder="Tu mensaje... " id="message" ng-model="mensaje.mensaje"></textarea>
           </div>
           <div class="col-md-4">
-            <input type="submit" name="send" value="Enviar mensaje" id="submit" class="button templatemo_sendbtn" ng-click="enviarMensaje(mensaje)">
+            <input type="submit" name="send" value="Enviar mensaje" id="submit" class="button templatemo_sendbtn">
           </div>
         </div>
       </form>
@@ -538,7 +538,7 @@
       <li><a href="#" class="entypo-twitter" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
       <li><a href="#" class="entypo-gplus" target="_blank"><i class="fa fa-google-plus"></i><span>Google+</span></a></li>
       <li><a href="#" class="entypo-linkedin" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a></li> -->
-      <li><a href="https://www.instagram.com/prodycomca/" class="entypo-instagrem" target="_blank"><i class="fa fa-instagram"></i><span><u>Instagram</u></span></a></li>
+      <li><a href="https://www.instagram.com/prodycomca/" class="entypo-instagrem" target="_blank"><span><u>Instagram</u></span></a></li>
       <li><a href="tel:+584265821342" class="entypo-whatsapp"><i class="fa fa-whatsapp"></i><span><u>(+58) 426 582 13 42</u></span></a></li>
       <li><a href="tel:+584122260229" class="entypo-phone"><i class="fa fa-phone"></i><span><u>(+58) 412 226 02 29</u></span></a></li>
       <!-- <li><a href="#" class="entypo-stumbleupon" target="_blank"><i class="fa fa-stumbleupon"></i><span>StumbleUpon</span></a></li>
