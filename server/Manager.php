@@ -40,8 +40,8 @@
                     $mail->SMTPAuth = true;
                     // $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
                     $mail->Host = 'smtp.office365.com'; // Specify main and backup SMTP servers
-                    $mail->Username = "camch9000@hotmail.com"; // SMTP username
-                    $mail->Password = "h1003895l"; // SMTP password  
+                    $mail->Username = "cprodycom@outlook.com"; // SMTP username
+                    $mail->Password = "cHTq2Uvp^@wYRjI0m6v*Y@Zt#BUe*9"; // SMTP password  
                     $mail->SMTPSecure = "STARTTLS";
                     $mail->Port       = 587;
 
