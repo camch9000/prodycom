@@ -1,3 +1,18 @@
+$(document).on({
+    ajaxStart: function() {
+        if(!actualizarMensaje){
+            timeoutAjax = setTimeout(function() { 
+                swal("Oh oh...", "No se ha porido conectar con el servidor, por favor vuelve a intentarlo", "error");
+                $("body").removeClass("loading"); }, 60000); 
+            $("body").addClass("loading");
+        }
+    },
+    ajaxStop: function() { clearTimeout(timeoutAjax); $("body").removeClass("loading"); },
+    ajaxError: function() { clearTimeout(timeoutAjax); $("body").removeClass("loading"); }  
+});
+
+var actualizarMensaje = false;
+'use strict';
 var cprodycom = angular.module('prodycomApp',[]);
 
 cprodycom.controller('web_controller', function($scope)
@@ -82,7 +97,7 @@ cprodycom.controller('web_controller', function($scope)
                     },
                     error: function(xhr, status, error) 
                     {
-                        console.log("Enviando mensaje --> " + xhr.status + ": " + xhr.responseText);
+                        swal("Mensaje no enviado", "Ha habido un problema, vuelve a intentarlo o contacta con nosotros a través de nuestros télefonos o email", "error");
                     }
                 });
             }

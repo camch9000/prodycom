@@ -48,8 +48,8 @@
                     // fwrite($myLog,"Conecto\n");
 
                     $mail->isHTML(true); // Set email format to HTML  
-                    $mail->setFrom('camch9000@hotmail.com', '(CPRODYCOM) - NUEVA MENSAJE WEB');
-                    $mail->AddReplyTo('camch9000@hotmail.com', 'Reply to name');
+                    $mail->setFrom('cprodycom@outlook.com', '(CPRODYCOM) - NUEVA MENSAJE WEB');
+                    $mail->AddReplyTo('cprodycom@outlook.com', 'Reply to name');
                     // $mail->addAddress('jalexrg1992@gmail.com'); //Aqui se agrega para que te llegue el correo 
                     $mail->addAddress('camch9000@gmail.com'); // El email del usurio online
                     //$mail->addAddress($email);//Este es el mail segundo (En caso de enviar a otro)
